@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+/*MAIN*/
+body{
+    --bs-body-bg: rgb(255, 253, 242);
+}
+.containers{
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.imagen-texto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+.aprobados .imagen-texto .aprobados-imagen{
+    width: 60%;
+}
+.aprobados .imagen-texto .aprobados-imagen img{
+    width: 100%;
+}
+.aprobados .imagen-texto .aprobados-contenido{
+    width: 40%;
+}
+.aprobados .imagen-texto .aprobados-contenido h2{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    margin: 0 0 16px;
+    color: rgb(104, 50, 186);
+}
+.aprobados .imagen-texto .aprobados-contenido h3{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0 0 16px;
+    color: #003d83;
+}
+
+
+
+.productos .contenido .titulo-1 h2{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    margin: 0 0 40px;
+    color: rgb(104, 50, 186);
+    text-align: center;
+}
+
+
+
+
+
+.beneficios .contenido{
+    padding: 60px 0;
+}
+.beneficios .contenido .imagen-texto  h3{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #003d83;
+}
+.beneficios .contenido .titulo-1 h2{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    margin: 0 0 40px;
+    color: rgb(104, 50, 186);
+    text-align: center;
+}
+.beneficios .contenido .imagen-texto .card{
+    --bs-border-width: 2px;
+}
+.beneficios .contenido .imagen-texto .icon-1{
+    padding-top: 16px;
+}
+
+
+.calidad .imagen-texto{
+    padding: 60px 0;
+}
+.calidad .imagen-texto .aprobados-imagen{
+    width: 60%;
+}
+.calidad .imagen-texto .aprobados-imagen img{
+    width: 100%;
+    border-radius: 14px;
+}
+.calidad .imagen-texto .aprobados-contenido{
+    width: 40%;
+}
+.calidad .imagen-texto .aprobados-contenido h2{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    margin: 0 0 16px;
+    color: rgb(104, 50, 186);
+}
+.calidad .imagen-texto .aprobados-contenido h3{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0 0 16px;
+    color: #003d83;
+}
