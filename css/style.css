@@ -54,6 +54,25 @@ body{
 
 
 
+.productos .contenido .opciones{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 16px;
+}
+.productos .contenido .opciones span{
+    color: #fff;
+    background-color: #f35900;
+    padding: 16px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.productos .contenido .opciones span:hover{
+    color: #fff;
+    background-color: #c24700;
+}
+
+
 .productos .contenido .titulo-1 h2{
     font-family: "Host Grotesk", serif;
     font-optical-sizing: auto;
@@ -114,6 +133,8 @@ body{
 .beneficios .contenido .imagen-texto .icon-1{
     padding-top: 16px;
 }
+
+
 
 
 .calidad .imagen-texto{
