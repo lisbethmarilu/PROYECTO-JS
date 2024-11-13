@@ -82,6 +82,7 @@ body{
     border-color: #f35900;
     border: 1.5px solid;
     cursor: pointer;
+    transition: 0.4s ease;
 }
 .productos .contenido .opciones span:hover{
     color: #fff;
@@ -116,9 +117,22 @@ body{
     margin: 0 0 16px;
     color: #003d83;
 }
+.productos .contenido .imagen-texto .card{
+    border: 1.5px solid;
+    border-color: #b4bac1;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.4s ease;
+}
+.productos .contenido .imagen-texto .card:hover{
+    border-color: rgb(104, 50, 186);
+}
 .productos .contenido .imagen-texto .card .btn{
-    --bs-btn-bg: rgb(104, 50, 186);;
+    --bs-btn-bg: rgb(104, 50, 186);
     --bs-btn-border-color: rgb(104, 50, 186);
+}
+.productos .contenido .imagen-texto .card:hover .btn{
+    --bs-btn-bg: rgb(143, 69, 255);
+    --bs-btn-border-color: rgb(143, 69, 255);
     --bs-btn-hover-bg: rgb(143, 69, 255);
     --bs-btn-hover-border-color: rgb(143, 69, 255);
     --bs-btn-active-bg: rgb(77, 37, 138);
