@@ -24,6 +24,18 @@ body{
     align-items: center;
     gap: 60px;
 }
+.hero{
+    width: 100%;
+    height: calc(60vh - 70px);
+    background-image: url(../img/cyberp-camas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f35900;
+}
+
+
+
 .aprobados .imagen-texto .aprobados-imagen{
     width: 60%;
 }
@@ -53,23 +65,35 @@ body{
 }
 
 
-
+.productos .contenido{
+    padding: 60px 0;
+}
 .productos .contenido .opciones{
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 16px;
+    margin-bottom: 40px;
 }
 .productos .contenido .opciones span{
-    color: #fff;
-    background-color: #f35900;
+    color: #f35900;
+    background-color: rgb(255, 253, 242);
     padding: 16px 12px;
     border-radius: 8px;
+    border-color: #f35900;
+    border: 1.5px solid;
     cursor: pointer;
 }
 .productos .contenido .opciones span:hover{
     color: #fff;
-    background-color: #c24700;
+    background-color: #f35900;
+}
+.productos .contenido .opciones span h3{
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
 }
 
 
