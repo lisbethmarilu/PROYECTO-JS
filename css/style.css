@@ -6,6 +6,48 @@
     box-sizing: border-box;
 }
 /*HEADER*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+header .navbar{
+    background-color:  #003d83 !important;
+}
+header .navbar .logo-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .navbar .nav-item .nav-link h3:hover{
+    color: #9de0ff !important;
+}
+header .navbar h2{
+    color: #ffffff;
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+header .navbar h3{
+    color: #ffffff;
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin: 12px;
+}
+header nav ul li a{
+    text-decoration: none;
+}
 /*MAIN*/
 body{
     --bs-body-bg: rgb(255, 253, 242);
@@ -108,7 +150,7 @@ body{
     color: rgb(104, 50, 186);
     text-align: center;
 }
-.productos .contenido .imagen-texto h4{
+.productos .contenido .grande h4{
     font-family: "Host Grotesk", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -117,20 +159,59 @@ body{
     margin: 0 0 16px;
     color: #003d83;
 }
-.productos .contenido .imagen-texto .card{
+.carrusel1{
+    width: 90%;
+    max-width: 120em;
+}
+.carrusel1 .card{
+    width: calc(100% /6);
     border: 1.5px solid;
     border-color: #b4bac1;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
     transition: 0.4s ease;
 }
-.productos .contenido .imagen-texto .card:hover{
+.carrusel1 .grande{
+    width: 600%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.carrusel1 .puntos{
+    width: 100%;
+    background-color: #59f300;
+    padding: 16px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel1 .puntos .punto{
+    width: 24px;
+    height: 24px;
+    background-color: #f35900;
+    margin: 12px;
+
+}
+.carrusel1 .puntos .punto .punto.activo{
+    background-color: #00f371;
+    
+}
+
+
+.productos .contenido .grande .card:hover{
     border-color: rgb(104, 50, 186);
 }
-.productos .contenido .imagen-texto .card .btn{
+.productos .contenido .grande .card .btn{
     --bs-btn-bg: rgb(104, 50, 186);
     --bs-btn-border-color: rgb(104, 50, 186);
 }
-.productos .contenido .imagen-texto .card:hover .btn{
+.productos .contenido .grande .card:hover .btn{
     --bs-btn-bg: rgb(143, 69, 255);
     --bs-btn-border-color: rgb(143, 69, 255);
     --bs-btn-hover-bg: rgb(143, 69, 255);
