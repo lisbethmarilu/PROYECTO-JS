@@ -8,7 +8,6 @@
 /*HEADER*/
 
 header{
-    position: sticky;
     top: 0;
 }
 header .navbar{
@@ -150,7 +149,14 @@ body{
     color: rgb(104, 50, 186);
     text-align: center;
 }
-.productos .contenido .grande h4{
+
+.carrusel-producto{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.productos .contenido .carrusel-producto h4{
     font-family: "Host Grotesk", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -159,59 +165,17 @@ body{
     margin: 0 0 16px;
     color: #003d83;
 }
-.carrusel1{
-    width: 90%;
-    max-width: 120em;
-}
-.carrusel1 .card{
-    width: calc(100% /6);
-    border: 1.5px solid;
-    border-color: #b4bac1;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
-    transition: 0.4s ease;
-}
-.carrusel1 .grande{
-    width: 600%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 16px;
-
-    transition: all .5s ease;
-    transform: translateX(0%);
-}
-
-.carrusel1 .puntos{
-    width: 100%;
-    background-color: #59f300;
-    padding: 16px;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-.carrusel1 .puntos .punto{
-    width: 24px;
-    height: 24px;
-    background-color: #f35900;
-    margin: 12px;
-
-}
-.carrusel1 .puntos .punto .punto.activo{
-    background-color: #00f371;
-    
-}
 
 
-.productos .contenido .grande .card:hover{
+
+.productos .contenido .carrusel-producto .card:hover{
     border-color: rgb(104, 50, 186);
 }
-.productos .contenido .grande .card .btn{
+.productos .contenido .carrusel-producto .card .btn{
     --bs-btn-bg: rgb(104, 50, 186);
     --bs-btn-border-color: rgb(104, 50, 186);
 }
-.productos .contenido .grande .card:hover .btn{
+.productos .contenido .carrusel-producto .card:hover .btn{
     --bs-btn-bg: rgb(143, 69, 255);
     --bs-btn-border-color: rgb(143, 69, 255);
     --bs-btn-hover-bg: rgb(143, 69, 255);
